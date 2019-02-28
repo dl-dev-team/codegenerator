@@ -12,11 +12,11 @@ import java.util.List;
 @Component
 public class CodeGenProperties {
 
-    public static final String PREFIX = "smsf.codegen";
+    public static final String PREFIX = "mini.codegen";
 
     private List<Resource> resources = new ArrayList<>();
 
-    private String author = "s.c.gao";
+    private String author = "dawei.li";
 
     private String projectModulePath = "code-generator-output";
 
@@ -28,7 +28,7 @@ public class CodeGenProperties {
 
     private String javaPath = "/src/main/java";
 
-    private String basePackage = "com.accenture.smsf";
+    private String basePackage = "com.mini";
 
     private String entityPackage;
 

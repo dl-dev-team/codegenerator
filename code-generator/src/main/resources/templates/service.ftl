@@ -1,7 +1,7 @@
 package ${basePackage}.${moduleName}.service;
 
 import ${basePackage}.${moduleName}.core.entity.${modelNameUpperCamel};
-import com.ac.smsf.codegen.core.service.MapperService;
+import com.mini.core.service.MapperService;
 
 /**
  *

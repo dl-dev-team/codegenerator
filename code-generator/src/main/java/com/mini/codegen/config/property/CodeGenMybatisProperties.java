@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CodeGenMybatisProperties {
 
-    public static final String PREFIX = "smsf.codegen.mybatis";
+    public static final String PREFIX = "mini.codegen.mybatis";
 
     private Context context = new Context();
 

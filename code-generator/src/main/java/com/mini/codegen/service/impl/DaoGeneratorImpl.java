@@ -82,7 +82,7 @@ public class DaoGeneratorImpl implements CodeGenerator {
     private void addMapperPlugin(Context context) {
         PluginConfiguration pluginConfiguration = new PluginConfiguration();
         pluginConfiguration.setConfigurationType("tk.mybatis.mapper.generator.MapperPlugin");
-        pluginConfiguration.addProperty("mappers", "com.ac.smsf.codegen.core.mapper.BaseMapper");
+        pluginConfiguration.addProperty("mappers", "com.mini.core.mapper.BaseMapper");
         context.addPluginConfiguration(pluginConfiguration);
     }
 

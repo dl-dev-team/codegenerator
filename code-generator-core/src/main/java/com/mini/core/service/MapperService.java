@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @param <T>
- * @author s.c.gao
+ * @author dawei.li
  */
 public interface MapperService<T> {
 

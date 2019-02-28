@@ -4,7 +4,7 @@ spring:
   main:
     allow-bean-definition-overriding: true
 
-smsf:
+mini:
   data:
     jdbc:
       connections:
