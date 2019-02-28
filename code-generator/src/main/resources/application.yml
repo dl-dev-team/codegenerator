@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: code-generator
+  main:
+    allow-bean-definition-overriding: true
+smsf:
+  codegen:
+#    moduleName: sample
+    mybatis:
+      datasource:
+        url: jdbc:mysql://localhost:3306/smsf-powerom?useUnicode=true&characterEncoding=utf-8
+        username: dev
+        password: Win2018@
+    moduleName: test
+    basePackage: com.mini
+    resources:
+      -
+        table-name: t_user_report
+        model-name: UserReport
